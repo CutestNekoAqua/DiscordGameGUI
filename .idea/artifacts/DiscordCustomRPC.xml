@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="DiscordCustomRPC">
+    <output-path>$PROJECT_DIR$/out/artifacts/DiscordCustomRPC</output-path>
+    <root id="archive" name="DiscordCustomRPC.jar">
+      <element id="library" level="project" name="discord-rpc" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="DiscordGameGUI" />
+      <element id="library" level="project" name="jackson-dataformat-yaml-2.9.9" />
+    </root>
+  </artifact>
+</component>
